@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const Resume = () => {
     return (
         <div>
-            <h3>Resume</h3>
+            <Button>Download Resume</Button>
         </div>
     );
 };
