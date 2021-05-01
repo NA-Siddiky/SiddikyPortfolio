@@ -1,23 +1,41 @@
 import React from 'react';
 import Resume from '../Resume/Resume';
-import profile from '../../../images/siddiky.png'
+import profile from '../../../images/Photo 2.jpg'
 import './About.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-solid-svg-icons'
+
 
 const About = () => {
     return (
         <div className="row styleOfAbout">
-            <div className="col-md-8">
-                <h1>Hello, I'M <br></br> <span className="name-highlight"></span>N.A Siddiky</h1>
-                <h3>A Full stack Web Developer</h3>
-                <p>Software engineer with professional experience in web development and information security system.</p>
+            <div className="container about-section d-flex flex-wrap">
+                <div className="sectionAbout">
+                    <h3>About Me</h3>
+                </div>
 
-                <Resume></Resume>
-            </div>
-            <div className="col-md-4">
-                <img className="profileImage" src={profile} alt="" />
+                <div className="col-md-6 about-img">
+                    <div>
+                        <img className="profileImage" src={profile} alt="" />
+                    </div>
+
+                    <div>
+                        <a target="_blank" href={``}><faLinkedin></faLinkedin></a>
+                        <a target="_blank" href={``}><faGithub></faGithub></a>
+                    </div>
+
+                </div>
+
+                <div className="col-md-6 about-info">
+                    <p><span>Hi! my name is Siddiky. I am a web developer. </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptatum maiores tempora illo nostrum aliquid eius distinctio praesentium? Debitis commodi, nemo doloremque expedita iste odit natus explicabo rerum dignissimos totam!</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nobis quo iste impedit, cum sapiente. Possimus deleniti tenetur cumque rem ipsum maiores tempore illo eos. Ea nisi ab est voluptate.</p>
+                    <Resume></Resume>
+
+                </div>
             </div>
         </div>
     );
 };
-
 export default About;

@@ -1,7 +1,7 @@
 import React from 'react';
-import About from '../../Home/About/About';
+import HeaderBody from '../HeaderBody/HeaderBody';
 import MyNav from '../MyNav/MyNav';
-import Slider from '../Slider/Slider';
+// import Slider from '../Slider/Slider';
 import './Header.css'
 
 const Header = () => {
@@ -9,8 +9,9 @@ const Header = () => {
         <div>
             <div className='headerStyle'>
                 <MyNav></MyNav>
-                <Slider></Slider>
-                <About></About>
+                {/* <Slider></Slider> */}
+                <HeaderBody></HeaderBody>
+
             </div>
 
         </div>
