@@ -1,0 +1,46 @@
+.contact {
+  background: linear-gradient(-75deg, white, rgb(255, 228, 286));
+  overflow: hidden;
+  padding: 50px 0px;
+  display: flex;
+}
+.contactStyle {
+  border: 1px solid red;
+}
+.contact .from {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.contact .info {
+  width: 45%;
+  float: left;
+}
+
+.contact .from label {
+  display: block;
+  margin: 10px 0;
+}
+.contact .from input[type="text"] {
+  background-color: rgb(255, 228, 286);
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 5px;
+}
+.contact .from textarea {
+  background-color: rgb(255, 228, 286);
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 100px;
+}
+.contact .from input[type="submit"] {
+  background: linear-gradient(-90deg, #000000, #134e9b);
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
