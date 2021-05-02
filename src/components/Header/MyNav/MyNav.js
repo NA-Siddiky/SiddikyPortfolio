@@ -5,7 +5,7 @@ import logo from '../../../images/Logo_Short.png';
 import './MyNav.css'
 const MyNav = () => {
     return (
-        <header>
+        <header className='sticky-top headerStyle'>
             <Navbar bg="" variant="light" className='styleOfNav'>
                 <ul>
                     <Link className="nav-link mr-4 text-Blue" to="/">

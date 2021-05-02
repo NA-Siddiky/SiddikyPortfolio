@@ -8,10 +8,12 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import MyNav from './components/Header/MyNav/MyNav';
 
 function App() {
   return (
     <Router>
+      <MyNav />
       <Switch>
         <Route exact path="/">
           <Home></Home>

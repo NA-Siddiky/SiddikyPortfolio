@@ -1,10 +1,13 @@
-.styleOfNav{
-  padding: 0 100px;
+.styleOfNav {
+	padding: 0 100px;
 }
 
 img.logoImg {
-  width: 4rem;
+	width: 4rem;
 }
 header.container {
-  position: relative;
+	position: relative;
+}
+.headerStyle {
+	background: linear-gradient(90deg, white, rgb(255, 228, 286));
 }

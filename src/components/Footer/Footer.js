@@ -1,13 +1,13 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaFacebook, FaTwitter, FaLinkedin } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 import './Footer.css'
 
 const Footer = () => {
     return (
         <footer class="site-footer">
             <div class="container">
-                <div class="row">
+                <div class="row g-0">
                     <div class="col-sm-12 col-md-6">
                         <p class="text-justify">I am here to help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
                     </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <hr />
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row g-0">
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by N.A Siddiky.
                        </p>
@@ -42,9 +42,9 @@ const Footer = () => {
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <ul class="social-icons">
-                            <li><a class="facebook" href="#"><i className="FaFacebook"></i></a></li>
-                            <li><a class="twitter" href="#"><i className="FaTwitter"></i></a></li>
-                            <li><a class="linkedin" href="#"><i className="FaLinkedin"></i></a></li>
+                            <li><a class="facebook" href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                            <li><a class="twitter" href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
+                            <li><a class="linkedin" href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
                         </ul>
                     </div>
                 </div>

@@ -4,12 +4,12 @@ import profile from '../../../images/Photo 2.jpg'
 import './About.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
 const About = () => {
     return (
-        <div className="row styleOfAbout">
+        <div className="row g-0 styleOfAbout">
             <div className="container about-section d-flex flex-wrap">
                 <div className="sectionAbout">
                     <h3>About Me</h3>
@@ -17,12 +17,14 @@ const About = () => {
 
                 <div className="col-md-6 about-img">
                     <div>
-                        <img className="profileImage" src={profile} alt="" />
+                        <img className="profileImage border shadow rounded" src={profile} alt="" />
                     </div>
 
-                    <div>
-                        <a target="_blank" href={``}><faLinkedin></faLinkedin></a>
-                        <a target="_blank" href={``}><faGithub></faGithub></a>
+                    <div className='ml-2'>
+                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={``}>
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={``}> <FontAwesomeIcon icon={faLinkedin} /></a>
                     </div>
 
                 </div>
@@ -35,7 +37,7 @@ const About = () => {
 
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 export default About;

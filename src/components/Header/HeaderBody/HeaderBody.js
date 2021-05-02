@@ -4,7 +4,7 @@ import './HeaderBody.css'
 
 const HeaderBody = () => {
     return (
-        <div className="row styleOfHeader">
+        <div className="row g-0 styleOfHeader">
             <div className="col-md-8">
                 <h1>Hello, I'M <br></br> <span className="name-highlight"></span>N.A Siddiky</h1>
                 <h3>A Full stack Web Developer</h3>
