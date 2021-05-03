@@ -21,10 +21,10 @@ const About = () => {
                     </div>
 
                     <div className='ml-2'>
-                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={`https://github.com/NA-Siddiky`}>
+                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={"https://github.com/NA-Siddiky"}>
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={`https://www.linkedin.com/in/na-siddiky/`}> <FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={"https://www.linkedin.com/in/na-siddiky/"}> <FontAwesomeIcon icon={faLinkedin} /></a>
                     </div>
 
                 </div>

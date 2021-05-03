@@ -1,5 +1,5 @@
 .contact {
-	background: linear-gradient(-75deg, white, rgb(255, 228, 286));
+	background: linear-gradient(-180deg, white, #1fb2f6);
 	overflow: hidden;
 	padding: 50px 0px;
 	display: flex;
@@ -22,14 +22,14 @@
 	margin: 10px 0;
 }
 .contact .from input[type='text'] {
-	background-color: rgb(255, 228, 286);
+	background-color: #0b97da;
 	padding: 10px;
 	border: 0;
 	width: 80%;
 	margin-bottom: 5px;
 }
 .contact .from textarea {
-	background-color: rgb(255, 228, 286);
+	background-color: #0b97da;
 	padding: 10px;
 	border: 0;
 	width: 80%;
