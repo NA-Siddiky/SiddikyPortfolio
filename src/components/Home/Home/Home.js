@@ -11,7 +11,7 @@ import About from '../About/About';
 
 const Home = () => {
     return (
-        <div>
+        <main id="home">
             <Header></Header>
             <About></About>
             <Skills></Skills>
@@ -21,7 +21,7 @@ const Home = () => {
             <Blog></Blog>
             <Contact></Contact>
             <Footer></Footer>
-        </div>
+        </main>
     );
 };
 

@@ -1,5 +1,5 @@
 .wrapper {
-  width: 700px;
+  width: 90vh;
   margin: 0 auto;
 }
 .skill {
@@ -93,3 +93,4 @@
 .skill6 .skill-count6 {
   right: 0;
 }
+

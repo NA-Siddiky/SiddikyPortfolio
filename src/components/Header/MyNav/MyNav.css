@@ -8,6 +8,6 @@ img.logoImg {
 header.container {
 	position: relative;
 }
-.headerStyle {
-	background: linear-gradient(90deg, white, rgb(255, 228, 286));
+.navStyle {
+	background: linear-gradient(90deg, white, #0b97da);
 }

@@ -21,12 +21,14 @@ const Blog = () => {
             },]
     };
     return (
-        <div className='container my-5'>
-            <h1 className='text-center my-3'>Blog</h1>
-            <Slider {...settings}>
-                {blog.map(blg => <Blg blg={blg} />)}
-            </Slider>
-        </div>
+        <section id="blog">
+            <div className='container my-5'>
+                <h1 className='text-center my-3'>Blog</h1>
+                <Slider {...settings}>
+                    {blog.map(blg => <Blg blg={blg} />)}
+                </Slider>
+            </div>
+        </section>
     );
 };
 
