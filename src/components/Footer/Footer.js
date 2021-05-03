@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import './Footer.css'
+import logo from '../../images/Logo_Short.png';
+
 
 const Footer = () => {
     return (
@@ -36,7 +38,10 @@ const Footer = () => {
             <div class="container">
                 <div class="row g-0">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by N.A Siddiky.
+
+                        <p class="copyright-text">
+                            <a className="navbar-brand ps-6" href="#home"><img className='logoImg' src={logo} alt="" /></a>
+                        Copyright &copy; 2021 All Rights Reserved by N.A Siddiky.
                        </p>
                     </div>
 
