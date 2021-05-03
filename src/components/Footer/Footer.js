@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import './Footer.css'
 
 const Footer = () => {
@@ -42,9 +42,9 @@ const Footer = () => {
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <ul class="social-icons">
-                            <li><a class="facebook" href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                            <li><a class="twitter" href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
-                            <li><a class="linkedin" href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
+                            <li><a class="facebook" target="_blank" href={`https://www.facebook.com/Siddiky.Juwel/`}><FontAwesomeIcon icon={faFacebook} /></a></li>
+                            <li><a class="twitter" target="_blank" href={`https://twitter.com/NA_Siddiky`}><FontAwesomeIcon icon={faTwitter} /></a></li>
+                            <li><a class="linkedin" target="_blank" href={`https://www.linkedin.com/in/na-siddiky/`}><FontAwesomeIcon icon={faLinkedin} /></a></li>
                         </ul>
                     </div>
                 </div>

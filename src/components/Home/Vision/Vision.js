@@ -3,7 +3,7 @@ import { Chrono } from "react-chrono";
 
 const Vision = () => {
     const items = [{
-        title: "15 Jun 2018 – 31 Jan 2019",
+        title: "Jun 15, 2018 – Jan 31, 2019",
         cardTitle: "N2SYS Technology",
         cardSubtitle: "Web developer",
         cardDetailedText: "Writing efficient code, Creating websites/a website using standard HTML/CSS practices. Working closely with web designers and programmers to produce the website.",
@@ -21,7 +21,7 @@ const Vision = () => {
         cardDetailedText: "Pabna University of Science and Technology",
     }];
     return (
-        <div className="d-block m-auto " style={{ width: "500px", height: "650px" }}>
+        <div className="d-block m-auto " style={{ width: "500px", height: "700px" }}>
             <Chrono
                 items={items}
                 mode="VERTICAL_ALTERNATING"
