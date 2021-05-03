@@ -13,8 +13,8 @@ function Project({ pr }) {
           {desc.substring(0, 250)}
         </Card.Text>
         <div className='d-flex justify-content-between'>
-          <Button variant="primary" href={link}>Go somewhere</Button>
-          <Button variant="primary" href={github}>Go somewhere</Button>
+          <Button target='_blank' variant="primary" href={link}>Visit Site</Button>
+          <Button target='_blank' variant="primary" href={github}>View Code</Button>
         </div>
 
       </Card.Body>

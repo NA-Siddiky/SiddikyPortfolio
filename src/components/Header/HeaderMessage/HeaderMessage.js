@@ -45,7 +45,7 @@ const HeaderMessage = () => {
                                 strings: ["React", "Node Js", "MongoDB", "Express JS"],
                                 autoStart: true,
                                 loop: true,
-                                delay: 50
+                                delay: 50,
                             }}
                         />
                     </div>
