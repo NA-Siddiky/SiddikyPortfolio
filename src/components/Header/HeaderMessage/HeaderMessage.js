@@ -17,10 +17,10 @@ const MyTitleMessage = styled.h2`
   div {
     color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 9px;
+    font-weight: 400;
+    letter-spacing: 5px;
     .main {
-      font-size: 40px;
+      font-size: 45px;
     }
     .sub {
       font-size: 30px;
@@ -31,31 +31,31 @@ const MyTitleMessage = styled.h2`
 
 
 const HeaderMessage = () => {
-    return (
-        <MyTitleMessage>
-            <div className="titleMessage">
-                <div className="heading text-left">
-                    <div className="main mb-3">
-                        <h1>Hi, I'M <br></br> <span className="color-highlight">N.A Siddiky</span></h1><br />
-                        <h4>MERN Developer</h4>
-                    </div>
-                    <div className="sub">
-                        <Typewriter
-                            options={{
-                                strings: ["React", "Node Js", "MongoDB", "Express JS"],
-                                autoStart: true,
-                                loop: true,
-                                delay: 50,
-                            }}
-                        />
-                    </div>
-                    <div>
-                        <Button className="color-highlight" target="_blank" href="https://drive.google.com/file/d/1MD7KtIoMcxQtXTMzjNUkHx3ow49S_k8_/view?usp=sharing">HIRE ME</Button>
-                    </div>
-                </div>
-            </div>
-        </MyTitleMessage>
-    );
+  return (
+    <MyTitleMessage>
+      <div className="titleMessage">
+        <div className="heading text-left">
+          <div className="main mb-3">
+            <h1>Hi, I'M <br></br> <span className="color-highlight">N.A Siddiky</span></h1><br />
+            <h4>MERN Developer</h4>
+          </div>
+          <div className="sub">
+            <Typewriter
+              options={{
+                strings: ["React", "Node Js", "MongoDB", "Express JS"],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+              }}
+            />
+          </div>
+          <div>
+            <Button className="color-highlight" target="_blank" href="https://drive.google.com/file/d/1MD7KtIoMcxQtXTMzjNUkHx3ow49S_k8_/view?usp=sharing">RESUME</Button>
+          </div>
+        </div>
+      </div>
+    </MyTitleMessage>
+  );
 };
 
 export default HeaderMessage;

@@ -30,9 +30,12 @@ const About = () => {
                 </div>
 
                 <div className="col-md-6 about-info">
-                    <p><span>Hi! my name is Siddiky. I am a web developer. </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptatum maiores tempora illo nostrum aliquid eius distinctio praesentium? Debitis commodi, nemo doloremque expedita iste odit natus explicabo rerum dignissimos totam!</p>
+                    <p><span>By conjoining hard work and hope you will get my name that is <strong>Siddiky</strong>.</span> I’m a <strong>MERN</strong> Stack developer and desirous to
+develop in a challenging workplace that welcomes innovative ideas and offers growth opportunities and a positive
+environment as a leader or team member.</p>
 
-                    <p>Lorem ipsum dolor. Alias nobis quo iste impedit, cum sapiente. Possimus deleniti tenetur cumque rem ipsum maiores tempore illo eos. Ea nisi ab est voluptate.</p>
+                    <p>It’s my passion to work on real-time web applications using JavaScript (ES6,
+React, Next) & Node.js is really awesome backend technology that I always prefer.</p>
                     <Resume></Resume>
                 </div>
             </div>
