@@ -29,10 +29,12 @@ const About = () => {
 
                 </div>
 
-                <div className="col-md-6 about-info">
+                <div className="col-md-6 about-info text-justify">
                     <p><span>By conjoining hard work and hope you will get my name that is <strong>Siddiky</strong>.</span> I’m a <strong>MERN</strong> Stack developer and desirous to
 develop in a challenging workplace that welcomes innovative ideas and offers growth opportunities and a positive
 environment as a leader or team member.</p>
+
+                    <br />
 
                     <p>It’s my passion to work on real-time web applications using JavaScript (ES6,
 React, Next) & Node.js is really awesome backend technology that I always prefer.</p>
