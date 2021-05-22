@@ -12,21 +12,21 @@ const MyNav = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav ms-auto pe-6">
+                        <ul className="navbar-nav ms-auto text-style pe-6">
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue" href="#home">Home</a>
+                                <a className="nav-link mr-4 text-Blue " href="#home">HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link  text-Blue" href="#projects">Projects</a>
+                                <a className="nav-link mr-4 text-Blue " href="#projects">PROJECTS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue" href="#blog">Blog</a>
+                                <a className="nav-link mr-4 text-Blue " href="#blog">BLOG</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue" href="#about">About</a>
+                                <a className="nav-link mr-4 text-Blue" href="#about">ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue" href="#contact">Contact</a>
+                                <a className="nav-link mr-4 text-Blue" href="#contact">CONTACT</a>
                             </li>
                         </ul>
                     </div>
