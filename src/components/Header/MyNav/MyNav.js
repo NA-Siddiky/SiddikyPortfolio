@@ -36,13 +36,13 @@ const MyNav = () => {
                                 <a className="nav-link mr-4 text-Blue active" href="#home">HOME</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link mr-4 text-Blue" href="#about">ABOUT</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link mr-4 text-Blue" href="#projects">PROJECTS</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link mr-4 text-Blue" href="#blog">BLOG</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue" href="#about">ABOUT</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link mr-4 text-Blue" href="#contact">CONTACT</a>
