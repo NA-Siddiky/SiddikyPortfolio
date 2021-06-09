@@ -4,13 +4,13 @@ import Project from './Project';
 const Projects = () => {
     return (
         <section id="projects">
-            <div className="container">
+            <div className="container pt-5">
                 <div className="text-center my-4">
-                    <h3>Projects</h3>
+                    <h1 className="section-heading py-5">Projects</h1>
                     <h5>Lets have a look some of my Projects</h5>
                 </div>
 
-                <div className="d-flex justify-content-center flex-wrap">
+                <div className="row">
                     {projects.map(pr => <Project pr={pr} />)}
                 </div>
             </div>

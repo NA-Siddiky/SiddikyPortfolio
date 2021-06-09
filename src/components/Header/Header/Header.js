@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <div className='headerStyle'>
+            <div className='headerStyle m-0 w-100'>
                 {/* <HeaderMessage></HeaderMessage> */}
                 <HeaderBody></HeaderBody>
 

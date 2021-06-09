@@ -3,13 +3,16 @@
 }
 .styleOfHeader {
 	/* border: 1px solid black; */
-	padding: 25px 100px;
+	/* padding: 0px 100px; */
+	background: linear-gradient(to right, 
+    #F6F6F6 79.3%,
+	#E4E5E0 21.7% 
+    );
 }
-@media only screen and (max-width: 768px) {
-	.profileImage {
-		width: 220px;
+	.headerProfileImage {
+		height: 80vh;
+		width: auto;
 	}
 	.styleOfHeader {
 		padding: 25px 50px;
 	}
-}

@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import logo from '../../../images/Logo_Short.png';
 import './MyNav.css'
 const MyNav = () => {
+
+    const [onscroll, setOnscroll] = useState(false);
+
+
+    const MyNav = useRef(null)
+    console.log(MyNav);
+
+    window.addEventListener('scroll', () => {
+        console.log(window.scrollY);
+        if (window.scrollY > 70) {
+            setOnscroll(true);
+        }
+        else {
+            setOnscroll(false);
+        }
+    })
+
+
+
     return (
-        <header className='sticky-top navStyle'>
+        <header ref={MyNav} className={`position-fixed w-100 navStyle ${onscroll ? 'scrollChange' : ''}`}>
 
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
@@ -14,13 +33,13 @@ const MyNav = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto text-style pe-6">
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue " href="#home">HOME</a>
+                                <a className="nav-link mr-4 text-Blue active" href="#home">HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue " href="#projects">PROJECTS</a>
+                                <a className="nav-link mr-4 text-Blue" href="#projects">PROJECTS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mr-4 text-Blue " href="#blog">BLOG</a>
+                                <a className="nav-link mr-4 text-Blue" href="#blog">BLOG</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link mr-4 text-Blue" href="#about">ABOUT</a>

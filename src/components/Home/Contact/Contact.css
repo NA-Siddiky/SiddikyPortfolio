@@ -1,5 +1,8 @@
 .contact {
-	background: linear-gradient(-180deg, white, #1fb2f6);
+	background: linear-gradient(to right, 
+    #F6F6F6 50%,
+	#E4E5E0 50% 
+    );
 	overflow: hidden;
 	padding: 50px 0px;
 	display: flex;
@@ -8,39 +11,17 @@
 	border: 1px solid red;
 }
 .contact .from {
-	width: 95%;
-	margin-right: 5%;
-	float: left;
-}
-.contact .info {
-	width: 95%;
-	float: left;
 }
 
 .contact .from label {
 	display: block;
 	margin: 10px 0;
 }
-.contact .from input[type='text'] {
-	background-color: #0b97da;
+.contact .from input,
+.contact .from textarea{
+	background-color: #fff;
 	padding: 10px;
-	border: 0;
-	width: 80%;
+	border: none;
+	border-radius: 0 !important;
 	margin-bottom: 5px;
-}
-.contact .from textarea {
-	background-color: #0b97da;
-	padding: 10px;
-	border: 0;
-	width: 80%;
-	margin-bottom: 10px;
-	height: 100px;
-}
-.contact .from input[type='submit'] {
-	background: linear-gradient(-90deg, #000000, #134e9b);
-	color: #fff;
-	padding: 10px 20px;
-	border: 0;
-	text-transform: uppercase;
-	margin-top: 10px;
 }

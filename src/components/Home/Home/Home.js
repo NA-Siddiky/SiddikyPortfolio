@@ -8,6 +8,7 @@ import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Vision from '../Vision/Vision';
 import About from '../About/About';
+// import SocialLink from '../SocialLink/SocialLink';
 
 const Home = () => {
     return (

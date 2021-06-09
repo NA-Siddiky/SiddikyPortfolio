@@ -1,4 +1,5 @@
 import React from 'react';
+import './Vision.css';
 import { Chrono } from "react-chrono";
 
 const Vision = () => {

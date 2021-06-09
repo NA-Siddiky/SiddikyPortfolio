@@ -1,96 +1,20 @@
-.wrapper {
-  width: 90vh;
-  margin: 0 auto;
+.progress {
+	background-color: #d8d8d8;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
 }
-.skill {
-  margin-bottom: 35px;
-  position: relative;
-  overflow-x: hidden;
-}
-.skill > p {
-  font-size: 18px;
-  font-weight: 700;
-  color: #1a1716;
-  margin: 0;
-}
-.skill:before {
-  width: 100%;
-  height: 5px;
-  content: "";
-  display: block;
-  position: absolute;
-  background: #959595;
-  bottom: 0;
-}
-.skill-bar {
-  width: 100%;
-  height: 5px;
-  background: #f4392f;
-  display: block;
-  position: relative;
+.progress-name{
+    width: 150px;
+    max-width: 150px;
+	background: #078DD2;
+    font-weight: bold;
 }
 
-/* SKILL 1 */
-.skill1 {
-  width: 95%;
+.progress-done {
+	background: linear-gradient(to left, #078DD2, #99d9f6);
+	box-shadow: 0 3px 3px -5px #078DD2, 0 2px 5px #99d9f6;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
 }
-.skill-bar span {
-  position: absolute;
-  border-top: 5px solid #f4392f;
-  top: -30px;
-  padding: 0;
-  font-size: 18px;
-  padding: 3px 0;
-  font-weight: 500;
-  border: 1px solid transparent;
-}
-.skill-bar {
-  position: relative;
-}
-
-.skill1 .skill-count1 {
-  right: 0;
-}
-/* SKILL 2 */
-.skill2 {
-  width: 85%;
-}
-
-.skill2 .skill-count2 {
-  right: 0;
-}
-/* SKILL 3 */
-.skill3 {
-  width: 75%;
-}
-.skill3 .skill-count3 {
-  right: 0;
-}
-
-/* SKILL 4 */
-.skill4 {
-  width: 65%;
-}
-
-.skill4 .skill-count4 {
-  right: 0;
-}
-
-/* SKILL 5 */
-.skill5 {
-  width: 80%;
-}
-
-.skill5 .skill-count5 {
-  right: 0;
-}
-
-/* SKILL 6 */
-.skill6 {
-  width: 90%;
-}
-
-.skill6 .skill-count6 {
-  right: 0;
-}
-

@@ -16,12 +16,12 @@ const Contact = () => {
     }
     return (
         <section id="contact" >
-            <div className="contact">
-                <div className="container">
+            <div className="contact mt-5 pt-5">
+                <div className="container pt-5">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="info">
-                                <h2 style={{ textAlign: "left" }}>Contact Me</h2>
+                                <h1 className="section-heading pb-3">Contact Me</h1>
                                 <p>Siddiky is always ready to reply. I love to communicate please feel free any query about myself and web design.</p>
                                 <p>
                                     <strong>City:</strong> Kushtia<br />
@@ -37,15 +37,16 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <form className="from" onSubmit={sendEmail}>
+                            <form className="from px-5" onSubmit={sendEmail}>
+                                <h5 className="py-3 color-primary">Have a question or want to work together?</h5>
                                 <label> Name*</label>
-                                <input type="text" name='name' />
+                                <input type="text" name='name' className="form-control" />
                                 <label> Email address*</label>
-                                <input type="text" name='email' />
+                                <input type="email" name='email' className="form-control" />
 
                                 <label> Message*</label>
-                                <textarea name='message'></textarea>
-                                <input type="submit" value="connect ME" />
+                                <textarea name='message' rows="5" className="form-control" ></textarea>
+                                <input type="submit" value="Send" className="btn btn-custom mt-3 w-50" />
                             </form>
                         </div>
                     </div>

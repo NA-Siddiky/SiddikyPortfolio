@@ -8,9 +8,11 @@ const Blog = () => {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 2,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 1024,
@@ -22,8 +24,8 @@ const Blog = () => {
     };
     return (
         <section id="blog">
-            <div className='container my-5'>
-                <h1 className='text-center my-3'>Blog</h1>
+            <div className='container my-5 pt-5'>
+                <h1 className='text-center section-heading my-5'>My Blogs</h1>
                 <Slider {...settings}>
                     {blog.map(blg => <Blg blg={blg} />)}
                 </Slider>
