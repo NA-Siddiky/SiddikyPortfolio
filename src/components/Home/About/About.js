@@ -12,7 +12,7 @@ const About = () => {
         <section className="row g-0 w-100 styleOfAbout" id="about">
             <div className="container about-section d-flex flex-wrap">
                 <div className="sectionAbout">
-                    <h3>About Me</h3>
+                    <h3>About Siddiky</h3>
                 </div>
 
                 <div className="col-md-6 about-img">
