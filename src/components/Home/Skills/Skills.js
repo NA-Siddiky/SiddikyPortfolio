@@ -1,27 +1,43 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SkillDetails from './SkillDetails';
 import './Skills.css'
 
 const mySkills = [
     {
-        done: '87',
-        technologyName: 'React'
+        done: '90',
+        technologyName: 'HTML'
     },
     {
-        done: '87',
-        technologyName: 'React'
+        done: '80',
+        technologyName: 'CSS'
     },
     {
-        done: '87',
-        technologyName: 'React'
+        done: '95',
+        technologyName: 'REACT'
     },
     {
-        done: '87',
-        technologyName: 'React'
+        done: '85',
+        technologyName: 'REACT NATIVE'
     },
     {
-        done: '87',
-        technologyName: 'React'
+        done: '60',
+        technologyName: 'TYPESCRIPT'
+    },
+    {
+        done: '90',
+        technologyName: 'REDUX'
+    },
+    {
+        done: '80',
+        technologyName: 'NODE'
+    },
+    {
+        done: '90',
+        technologyName: 'EXPRESS'
+    },
+    {
+        done: '85',
+        technologyName: 'MONGO DB'
     },
 ]
 

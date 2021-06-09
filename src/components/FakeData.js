@@ -1,38 +1,62 @@
 export const projects = [
   {
+    name: 'Amar Dokan',
+    img: 'https://cdn.searchenginejournal.com/wp-content/uploads/2017/11/e-commerce-link-building-760x400.png',    
+    teach: 'Redux, React, Node, Firebase',
+    link: 'https://amar-dokan-ff3c9.web.app/',
+    github: 'https://github.com/NA-Siddiky/amar-dokan',
+    desc: 'Multi-vendor online shop where user can easily get multiple products from multiple shop according to different category.'
+
+  },
+  {
     name: 'Tech Soldiers',
     img: 'https://tech-soldiers.web.app/static/media/Banner.9d14dbf3.jpg',
-    teach: 'react, node, firebase',
+    teach: 'React, Context, Mongo DB',
     link: 'https://tech-soldiers.web.app/',
     github: 'https://github.com/NA-Siddiky/TechSoldiers',
-    desc: 'Fully manageable including adding and deleting. Fully responsive supportive for all devices.'
+    desc: 'A complete IT enable services where you can order and buy your own required service by fully functioning payment method.'
+  },
+  {
+    name: 'eShop',
+    img: 'https://codecanyon.img.customer.envatousercontent.com/files/302592175/preview-imgpsb.png?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=0650ab3a9cabe3d1ad043e20d9575812',
+    teach: 'React Native, Expo, Express',
+    link: 'exp://exp.host/@n.a_siddiky/eShop',
+    github: 'https://github.com/NA-Siddiky/eShop',
+    desc: 'A complete IT enable services where you can order and buy your own required service by fully functioning payment method.'
   },
   {
     name: 'Developers Book Gallery',
     img: 'https://i.ibb.co/8XjvQ7x/image-21.png',
-    teach: 'react, node, firebase',
+    teach: 'React, React Hook Form, Axios, Node, MongoDB',
     link: 'https://developers-book-gallery.web.app/',
     github: 'https://github.com/NA-Siddiky/DevelopersBookGallery.git',
-    desc: 'Add Book.Directly retrieve data from Mongo DB Server.User can easily add and delete order. Admin can easily add and delete Books/Orders.'
+    desc: 'Online book shop where users can easily pursues & handle orders as well Admin can also manage by Books adding or removing.'
   },
   {
     name: 'Hungry Monster',
-    img: 'https://www.themealdb.com/images/media/meals/1529443236.jpg',
-    teach: 'HTML, CSS, API',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL2Q4Q2cF4J16BQ4H53El6phQfvwuFqiAAqQ&usqp=CAU',
+    teach: 'HTML, CSS, Bootstrap, Javascript, Fetching API',
     link: 'https://na-siddiky.github.io/Hungry-Monster/',
     github: 'https://github.com/NA-Siddiky/Hungry-Monster.git',
-    desc: 'Hungry Monster is online food pursing website from where user can buy food online'
+    desc: 'Hungry Monster is online food pursing website from where user can buy food online and searching different food is the best feature here.'
   },
   {
     name: 'Mega Bus',
-    img: 'https://us.megabus.com/globalassets/megabus-photo.jpg?preset=h_promo',
-    teach: 'HTML, CSS, Bootstrap',
-    link: 'https://na-siddiky.github.io/Mega-Bus/',
-    github: 'https://github.com/NA-Siddiky/Mega-Bus.git',
-    desc: 'Mega Bus is online bus ticket system'
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mtYHY03qwEUQSVnPx2CquKdwE_W2DU61cWyEkVqwFwTAQxk4XGAE-zry5l95Y-gBiOQ&usqp=CAU',
+    teach: 'React, React Router, Context, Navigation (Pigeon Map)',
+    link: 'https://city-riders-40883.web.app/',
+    github: 'https://github.com/NA-Siddiky/city-riders',
+    desc: 'Secure Location based Ridesharing service with shielded journey date & authenticate with both users created or google account.'
   },
 ]
 export const blog = [
+  {
+    name: 'Handbook on Web Programing',
+    img: 'https://miro.medium.com/max/1240/1*JgOkQ51Pj8YoiUfUnyFehA.jpeg',
+    topic: 'JavaScript, Logic, Functions',
+    link: 'https://siddiky.medium.com/handbook-on-web-programing-ea440f7692f3',
+    desc: 'Its open and free learning platform for learning basic programing logics ans some of fundamental topics for clearly understanding how web programming actually works. you may also get an interview questions overview likely mostly asked questions here. Hope you will enjoy it.'
+  },
   {
     name: 'Programing for everybody',
     img: 'https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~python/XDP~COURSE!~python.jpeg',
@@ -45,7 +69,7 @@ export const blog = [
     img: 'https://1.bp.blogspot.com/-pdqcVeIQp64/XDX7TzdRdcI/AAAAAAAAM8E/ZmGuB6caZqIGmEflGHcj3zgXJJrmqRLdgCLcBGAs/w1200-h630-p-k-no-nu/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg',
     topic: 'JavaScript, Basic, Advance',
     link: 'https://www.codecademy.com/learn/introduction-to-javascript',
-    desc: 'JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.'
+    desc: 'JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. please visit the below link for details.'
   },
   {
     name: 'Learn PHP',

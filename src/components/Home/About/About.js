@@ -1,5 +1,4 @@
 import React from 'react';
-import Resume from '../Resume/Resume';
 import profile from '../../../images/Photo 2.jpg'
 import './About.css'
 
@@ -20,10 +19,9 @@ const About = () => {
 
                     <div className="col-md-7 about-info text-justify">
                         <h1 className="section-heading my-3">About Me</h1>
-                        <h4>MERN STECK DEVELOPER</h4>
+                        <h4>MERN STACK DEVELOPER</h4>
 
-                        <p><span>By conjoining hard work and hope you will get my name that is <strong>Siddiky</strong>.</span> I’m a <strong>MERN</strong> Stack developer and desirous to
-develop in a challenging workplace that welcomes innovative ideas and offers growth opportunities and a positive
+                        <p><span>By conjoining hard work and hope you will get a name <strong>"Siddiky"</strong>.</span> I’m desirous to develop in a challenging workplace that welcomes innovative ideas and offers growth opportunities and a positive
 environment as a leader or team member.</p>
 
                         <p>It’s my passion to work on real-time web applications using JavaScript (ES6,

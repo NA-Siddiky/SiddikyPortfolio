@@ -13,7 +13,7 @@ function Blg({ blg }) {
           {desc.substring(0, 200)}...
         </Card.Text>
         <div className="d-flex justify-content-center">
-          <Button target='_' variant="primary" href={link}>Go somewhere</Button>
+          <Button target='_' className="btn-custom" href={link}>Visit link</Button>
         </div>
       </Card.Body>
     </Card>

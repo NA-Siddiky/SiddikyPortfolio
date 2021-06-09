@@ -8,7 +8,7 @@ const SocialLink = () => {
     return (
         <div>
             <div className="socialLinkItems">
-                <a target="_blank" href={"https://github.com/NA-Siddiky"}>
+                <a target="_blank" href="https://github.com/NA-Siddiky">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>
