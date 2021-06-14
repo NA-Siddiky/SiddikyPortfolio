@@ -1,7 +1,15 @@
-import React from 'react'
-import { Button, Card } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Button, Card, Modal } from 'react-bootstrap'
+import ProjectModal from './ProjectModal';
+
 
 function Project({ pr }) {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const { name, img, teach, link, github, desc } = pr;
   return (
     <div className="col-md-4 p-3">
@@ -16,10 +24,16 @@ function Project({ pr }) {
           <div className='d-flex justify-content-between'>
             <Button target='_blank' className="btn-custom" href={link}>Visit Site</Button>
             <Button target='_blank' className="btn-custom" href={github}>View Code</Button>
+            <Button className="btn-custom" onClick={handleShow}>Details</Button>
           </div>
 
         </Card.Body>
       </Card>
+      <ProjectModal pr={pr} show={show} handleClose={handleClose}></ProjectModal>
+
+
+
+
     </div>
   )
 }

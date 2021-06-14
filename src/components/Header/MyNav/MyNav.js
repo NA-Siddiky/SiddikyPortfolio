@@ -7,10 +7,8 @@ const MyNav = () => {
 
 
     const MyNav = useRef(null)
-    console.log(MyNav);
 
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY);
         if (window.scrollY > 70) {
             setOnscroll(true);
         }
