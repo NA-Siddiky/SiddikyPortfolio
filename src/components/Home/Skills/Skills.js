@@ -230,13 +230,13 @@ const Skills = () => {
 
 
             {/* Progress Bar  */}
-            {/* <div className="d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-center align-items-center">
                 <div className="w-50">
                     {
                         getSkill.map(skill => <SkillDetails done={skill.done} technologyName={skill.technologyName} ></SkillDetails>)
                     }
                 </div>
-            </div> */}
+            </div>
         </section>
 
     );
