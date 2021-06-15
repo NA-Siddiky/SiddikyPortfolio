@@ -39,7 +39,7 @@ const HeaderMessage = () => {
           <div className="sub text-warning">
             <Typewriter
               options={{
-                strings: ["React", "Node Js","Redux", "MongoDB", "Express JS"],
+                strings: ["React", "Node Js", "Redux", "MongoDB", "Express JS"],
                 autoStart: true,
                 loop: true,
                 delay: 50,
@@ -47,7 +47,7 @@ const HeaderMessage = () => {
             />
           </div>
           <div>
-            <Button className="color-highlight mt-3" target="_blank" href="https://drive.google.com/file/d/1MD7KtIoMcxQtXTMzjNUkHx3ow49S_k8_/view?usp=sharing">RESUME</Button>
+            <Button className="btn-custom mt-3" target="_blank" href="https://drive.google.com/file/d/1MD7KtIoMcxQtXTMzjNUkHx3ow49S_k8_/view?usp=sharing">RESUME</Button>
           </div>
         </div>
       </div>

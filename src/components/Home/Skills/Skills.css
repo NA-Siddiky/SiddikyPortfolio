@@ -24,8 +24,25 @@
 	height: 150px;
 	border-radius: 50%;
 	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	animation-name: UpDown;
+	animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
 }
 
 .skill-item img{	
 	width: 100%;
 }
+
+@keyframes UpDown {
+		0% {
+			transform: scale(1.10)
+		}
+		100% {
+			transform: scale(.990)
+		}
+    }

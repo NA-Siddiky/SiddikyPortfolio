@@ -214,10 +214,10 @@ const Skills = () => {
                 </div>
             </nav>
 
-            <div class="tab-content d-flex flex-wrap" id="nav-tabContent">
+            <div class="tab-content d-flex justify-content-center flex-wrap" id="nav-tabContent">
                 {
                     getSkill.map(skill =>
-                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="tab-pane fade show active skill-item-container" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
                             <div className="skill-item d-flex justify-content-center align-items-center m-4 p-4">
                                 <img src={skill.technologyLogo} alt="" />
@@ -230,13 +230,13 @@ const Skills = () => {
 
 
             {/* Progress Bar  */}
-            <div className="d-flex justify-content-center align-items-center">
+            {/* <div className="d-flex justify-content-center align-items-center">
                 <div className="w-50">
                     {
                         getSkill.map(skill => <SkillDetails done={skill.done} technologyName={skill.technologyName} ></SkillDetails>)
                     }
                 </div>
-            </div>
+            </div> */}
         </section>
 
     );

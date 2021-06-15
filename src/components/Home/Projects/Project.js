@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Card, Modal } from 'react-bootstrap'
+import { Button, Card } from 'react-bootstrap'
 import ProjectModal from './ProjectModal';
 
 
@@ -13,13 +13,15 @@ function Project({ pr }) {
   const { name, img, teach, link, github, desc } = pr;
   return (
     <div className="col-md-4 p-3">
-      <Card className='shadow rounded'>
-        <Card.Img variant="top" height="200px" src={img} />
+      <Card className='shadow rounded project-card'>
+        <Card.Img variant="top" className="project-img" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Title>{teach}</Card.Title>
+          {
+            teach.map(tech => <h6 className="d-inline-block p-2 ms-1 project-tech">{tech}</h6>)
+          }
           <Card.Text>
-            {desc.substring(0, 250)}
+            {desc.substring(0, 65)}...
           </Card.Text>
           <div className='d-flex justify-content-between'>
             <Button target='_blank' className="btn-custom" href={link}>Visit Site</Button>

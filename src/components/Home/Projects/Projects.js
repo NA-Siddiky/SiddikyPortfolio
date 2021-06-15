@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css'
 import { projects } from '../../FakeData'
 import Project from './Project';
 const Projects = () => {
