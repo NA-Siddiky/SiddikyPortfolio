@@ -17,7 +17,7 @@ const ExperienceBook = () => {
 
             <div className="flex justify-center">
 
-                <HTMLFlipBook width={400} height={500} className="flipBook">
+                <HTMLFlipBook width={500} height={600} className="flipBook">
                     <div className="bg-blue-400 shadow-md h-100 d-flex align-items-center text-center justify-content-center flip-book-text">
                         <h2>Welcome to my <br />Certificate Album</h2>
                     </div>
