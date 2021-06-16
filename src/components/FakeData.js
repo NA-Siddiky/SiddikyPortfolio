@@ -34,7 +34,7 @@ export const projects = [
     name: 'Developers Book Gallery',
     modalId: 'develope_book_gallery',
     type: 'Project Type',
-    img: 'https://i.ibb.co/8XjvQ7x/image-21.png',
+    img: 'https://ugtechmag.com/wp-content/uploads/2020/08/online-bookstores-uganda-ugtechmag.com-1-buy-books-online-696x436.jpg',
     teach: ['React', 'React Hook Form', 'Axios', 'Node', 'MongoDB'],
     link: 'https://developers-book-gallery.web.app/',
     github: 'https://github.com/NA-Siddiky/DevelopersBookGallery.git',
