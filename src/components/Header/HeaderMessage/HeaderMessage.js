@@ -30,7 +30,7 @@ const MyTitleMessage = styled.h2`
 const HeaderMessage = () => {
   return (
     <MyTitleMessage>
-      <div className="titleMessage w-100 h-100 p-4 d-flex justify-content-center align-items-center">
+      <div className="titleMessage w-100 h-100 d-flex justify-content-center align-items-center">
         <div className="heading p-4 text-left w-75">
           <div className="main">
             <h1 className="fw-bolder text-dark">Hi, I'M <br></br> <span className="color-primary my-name">N.A Siddiky</span></h1><br />
