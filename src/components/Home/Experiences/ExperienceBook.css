@@ -5,3 +5,11 @@
 .book-page-style2 {
   background: #99d9f6;
 }
+
+@media only screen and (max-width: 375px) {
+  .book-style {
+    width: 350px; 
+    height: 700px;
+    border: solid 1px red;
+  }
+}

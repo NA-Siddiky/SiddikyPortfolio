@@ -16,7 +16,7 @@ const ExperienceBook = () => {
     return (
         <section className="p-3">
 
-            <div className="d-flex flex-wrap justify-content-center">
+            <div className="d-flex flex-wrap justify-content-center book-style">
 
                 <HTMLFlipBook width={500} height={600} className="flipBook">
                     <div className="book-page-style1 shadow-md h-100 d-flex align-items-center text-center justify-content-center flip-book-text">

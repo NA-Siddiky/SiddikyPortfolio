@@ -1,19 +1,25 @@
 .css-1f02b8t-TitleWrapper.active,
-.css-vtfjjl-Circle.active{
-    background-color: #078DD2 !important;
-    color: #fff !important;
+.css-vtfjjl-Circle.active {
+  background-color: #078dd2 !important;
+  color: #fff !important;
 }
 .css-vtfjjl-Circle:not(.using-icon).active::after {
-    background-color: #078DD2 !important;
-
+  background-color: #078dd2 !important;
 }
 
 .css-vtfjjl-Circle:not(.using-icon),
-.css-ic9qte-VerticalCircleWrapper::after{
-    background: #444444 !important;
+.css-ic9qte-VerticalCircleWrapper::after {
+  background: #444444 !important;
 }
 
-.chrono-style{
-    width: 500px; 
-    height: 700px;
+.chrono-style {
+  width: 500px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 375px) {
+  .chrono-style {
+    width: 350px; 
+    height: 750px;
+  }
 }
