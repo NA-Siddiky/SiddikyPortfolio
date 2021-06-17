@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <section className="g-0 w-100 p-5 styleOfAbout" id="about">
+        <section className="w-100 p-5 styleOfAbout" id="about">
             <div className="container mt-5 about-section d-flex flex-wrap">
                 <div className="sectionAbout">
                 </div>

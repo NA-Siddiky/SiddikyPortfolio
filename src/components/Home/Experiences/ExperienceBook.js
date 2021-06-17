@@ -19,10 +19,10 @@ const ExperienceBook = () => {
             <div className="d-flex flex-wrap justify-content-center book-style">
 
                 <HTMLFlipBook width={500} height={600} className="flipBook">
-                    <div className="book-page-style1 shadow-md h-100 d-flex align-items-center text-center justify-content-center flip-book-text">
+                    <div className="book-page-style1 imageEx shadow-md h-100 d-flex align-items-center text-center justify-content-center flip-book-text">
                         <h2>Welcome to my <br />Certificate Album</h2>
                     </div>
-                    <div className="book-page-style2 book-page-style shadow-md flip-book-img-container">
+                    <div className="book-page-style2 imageEx book-page-style shadow-md flip-book-img-container">
                         <img className="p-2" src={webDevelopment} alt="" />
                         <a href="https://www.coursera.org/account/accomplishments/certificate/5MZCK4U5YJJZ" target="_blank" className="flip-book-overlay">See Credentials</a>
                     </div>
