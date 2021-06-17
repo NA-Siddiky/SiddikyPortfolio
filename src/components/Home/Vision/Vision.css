@@ -12,3 +12,8 @@
 .css-ic9qte-VerticalCircleWrapper::after{
     background: #444444 !important;
 }
+
+.chrono-style{
+    width: 500px; 
+    height: 700px;
+}

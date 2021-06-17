@@ -24,7 +24,7 @@ const Vision = () => {
         cardDetailedText: "Pabna University of Science and Technology",
     }];
     return (
-        <div className="d-block m-auto " style={{ width: "500px", height: "700px" }}>
+        <div className="d-block m-auto chrono-style" style={{  }}>
             <Chrono
                 items={items}
                 mode="VERTICAL_ALTERNATING"
