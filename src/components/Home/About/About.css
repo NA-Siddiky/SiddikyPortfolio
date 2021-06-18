@@ -60,9 +60,7 @@
   flex: 0 0 50%;
 }
 
-@media only screen and (max-width: 375px) {
-  .styleOfAbout {
-  }
+@media only screen and (max-width: 425px) {
   .about-img-border {
     width: 150px;
     height: 150px;
