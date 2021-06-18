@@ -14,11 +14,18 @@ import ielts from "../../../images/Certificate/IELTS_Certificate-1.jpg"
 
 const ExperienceBook = () => {
     return (
-        <section className="p-3">
+        <section className="container-fluid">
 
             <div className="d-flex flex-wrap justify-content-center book-style">
 
-                <HTMLFlipBook width={500} height={600} className="flipBook">
+                <HTMLFlipBook className="flipBook"
+                    width={500} height={600}
+                    size="stretch"
+                    minWidth={315}
+                    maxWidth={500}
+                    minHeight={400}
+                    maxHeight={600}
+                >
                     <div className="book-page-style1 imageEx shadow-md h-100 d-flex align-items-center text-center justify-content-center flip-book-text">
                         <h2>Welcome to my <br />Certificate Album</h2>
                     </div>

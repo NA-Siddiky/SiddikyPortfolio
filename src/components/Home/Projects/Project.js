@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Button, Card } from 'react-bootstrap'
 import ProjectModal from './ProjectModal';
 
-
 function Project({ pr }) {
 
   const [show, setShow] = useState(false);
@@ -13,7 +12,7 @@ function Project({ pr }) {
   const { name, img, teach, link, github, desc } = pr;
   return (
     <div className="col-md-4 p-3">
-      <Card className='shadow rounded project-card'>
+      <Card className='shadow rounded project-card '>
         <Card.Img variant="top" className="project-img" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>

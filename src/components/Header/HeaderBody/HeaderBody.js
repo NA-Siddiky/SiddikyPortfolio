@@ -14,7 +14,7 @@ const HeaderBody = () => {
             <div className="col-md-5 h-100 text-center d-flex justify-content-center align-items-end">
                 <div className="mb-auto h-100 d-flex justify-content-center align-items-end">
 
-                    <img className="headerProfileImage img-fluid" src={profile} alt="" />
+                    <img className="headerProfileImage img-fluid" src={profile} alt="Nur-Siddiky" />
                 </div>
             </div>
         </div>
