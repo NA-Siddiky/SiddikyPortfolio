@@ -51,8 +51,8 @@ export const projects = [
     desc: 'Hungry Monster is online food pursing website from where user can buy food online and searching different food is the best feature here.'
   },
   {
-    name: 'Mega Bus',
-    modalId: 'mega_bus',
+    name: 'City Riders',
+    modalId: 'city_riders',
     type: 'Project Type',
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mtYHY03qwEUQSVnPx2CquKdwE_W2DU61cWyEkVqwFwTAQxk4XGAE-zry5l95Y-gBiOQ&usqp=CAU',
     teach: ['React', 'React Router', 'Context', 'Navigation(Pigeon Map)'],
@@ -87,9 +87,17 @@ export const blog = [
     desc: 'JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. please visit the below link for details.'
   },
   {
+    name: 'Foundation of “React”',
+    type: 'Project Type',
+    img: 'https://miro.medium.com/max/3840/1*XoF_K7ww9zuovK9R8J2Tbg.png',
+    topic: 'React & its history, JSX, Virtual DOM',
+    link: 'https://siddiky.medium.com/handbook-on-web-programing-ea440f7692f3',
+    desc: 'Its open and free learning platform for learning basic programing logics ans some of fundamental topics for clearly understanding how web programming actually works. you may also get an interview questions overview likely mostly asked questions here. Hope you will enjoy it.'
+  },
+  {
     name: 'Learn PHP',
     type: 'Project Type',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRTO4-uo2KDnkdad2HTdy9aBzWJVgJ-zuANkBpCkqtO4fhPrnaIfMgbPV7IsFtjfZJxB0&usqp=CAU',
+    img: 'http://technewuk.com/wp-content/uploads/2020/04/php-development.png-800x400-1.png',
     topic: 'PHP, Larval, Basic',
     link: 'https://www.codecademy.com/learn/learn-php',
     desc: 'PHP is a widely used server-side programming language that’s become increasingly fast and powerful over the years. PHP works well with HTML and databases, making it a great language for anyone interested in building dynamic web applications.'

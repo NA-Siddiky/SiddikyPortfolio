@@ -9,12 +9,15 @@ function Project({ pr }) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const { name, img, teach, link, github, desc } = pr;
+  const { name, modalId, img, teach, link, github, desc } = pr;
   return (
     <div className="col-md-4 p-3">
       <Card className='shadow rounded project-card '>
-        <Card.Img variant="top" className="project-img" src={img} />
-        <Card.Body>
+        {/* <Card.Img variant="top" className="project-img" src={img} /> */}
+        <div className={`projectImageBG ${modalId}`}>
+
+        </div>
+        <Card.Body className="project-card-body">
           <Card.Title>{name}</Card.Title>
           {
             teach.map(tech => <h6 className="d-inline-block p-2 ms-1 project-tech">{tech}</h6>)
