@@ -1,8 +1,8 @@
+import { faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import './Footer.css'
 import logo from '../../images/Logo_Short.png';
+import './Footer.css';
 
 
 const Footer = () => {
@@ -41,15 +41,15 @@ const Footer = () => {
 
                         <p className="copyright-text">
                             <a className="navbar-brand ps-6" href="#home"><img className='logoImg' src={logo} alt="" /></a>
-                        Copyright &copy; 2021 All Rights Reserved by N.A Siddiky.
+                        Copyright &copy; 2022 All Rights Reserved by N.A Siddiky.
                        </p>
                     </div>
 
                     <div className="col-md-4 col-sm-6 col-xs-12">
                         <ul className="social-icons">
-                            <li><a className="facebook" target="_blank" href={"https://www.facebook.com/Siddiky.Juwel/"}><FontAwesomeIcon icon={faFacebook} /></a></li>
-                            <li><a className="twitter" target="_blank" href={"https://twitter.com/NA_Siddiky"}><FontAwesomeIcon icon={faTwitter} /></a></li>
-                            <li><a className="linkedin" target="_blank" href={"https://www.linkedin.com/in/na-siddiky/"}><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                            <li><a className="facebook" target="_blank" href={"https://www.facebook.com/Siddiky.Juwel/"} rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                            <li><a className="twitter" target="_blank" href={"https://twitter.com/NA_Siddiky"} rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                            <li><a className="linkedin" target="_blank" href={"https://www.linkedin.com/in/na-siddiky/"} rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                         </ul>
                     </div>
                 </div>

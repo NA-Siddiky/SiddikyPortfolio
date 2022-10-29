@@ -13,13 +13,16 @@
 }
 
 .chrono-style {
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 500px;
-  height: 700px;
+  height: 950px;
 }
 
 @media only screen and (max-width: 425px) {
   .chrono-style {
-    width: 350px; 
-    height: 750px;
+    padding-top: 40px;
+    width: 400px;
+    height: 950px;
   }
 }
