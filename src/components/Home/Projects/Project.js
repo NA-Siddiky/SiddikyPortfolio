@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Button, Card } from 'react-bootstrap'
+import React, { useState } from 'react';
+import { Button, Card } from 'react-bootstrap';
 import ProjectModal from './ProjectModal';
 
 function Project({ pr }) {
@@ -23,7 +23,7 @@ function Project({ pr }) {
             teach.map(tech => <h6 className="d-inline-block p-2 ms-1 project-tech">{tech}</h6>)
           }
           <Card.Text>
-            {desc.substring(0, 65)}...
+            {desc.substring(0, 55)}....
           </Card.Text>
           <div className='d-flex justify-content-between'>
             <Button target='_blank' className="btn-custom" href={link}>Visit Site</Button>

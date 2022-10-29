@@ -46,6 +46,10 @@
   background: url(../../../images/Project_Images/Hungry-Monster.png) top
     center/cover no-repeat;
 }
+.programming-hero {
+  background: url(../../../images/Project_Images/programming-hero.png) top
+    center/cover no-repeat;
+}
 .city_riders {
   background: url(../../../images/Project_Images/city-riders.png) top
     center/cover no-repeat;
