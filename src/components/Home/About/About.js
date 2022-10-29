@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mt-5 about-section d-flex flex-wrap">
         <div className="sectionAbout"></div>
 
-        <div className="row aboutBox p-4">
+        <div className="row aboutBox px-2 py-4 ">
           <div className="col-md-5 about-img d-flex justify-content-center">
             <div className="about-img-border">
               <img className="profileImage" src={profile} alt="" />
